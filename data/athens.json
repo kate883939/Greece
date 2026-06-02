@@ -1,0 +1,158 @@
+{
+  "region": {
+    "name_zh": "希臘本島",
+    "name_en": "Athens",
+    "tagline": "西方文明的古老搖籃",
+    "intro": "雅典是希臘的首都，也是西方文明的起點。衛城上的帕德嫩神殿俯瞰整座城市，山腳下的普拉卡老城巷弄交織著咖啡香與歷史。從這裡出發，還能造訪建在巨岩上的梅特歐拉修道院群。",
+    "hero": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1800&q=80"
+  },
+  "landmarks": [
+    {
+      "name_zh": "衛城與帕德嫩神殿",
+      "name_en": "Acropolis & Parthenon",
+      "tag": "古蹟",
+      "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=900&q=80",
+      "type": "modal",
+      "detail": "雅典的象徵，矗立在城市中心的山丘上。帕德嫩神殿、勝利女神神廟（Temple of Athena Nike）都在這裡。建議傍晚接近閉館前進場，避開正午烈日與人潮，光線也最美。山頂可俯瞰整座雅典市區。提醒：山上地板光滑、碎石多，建議穿涼鞋或休閒鞋，拖鞋容易打滑。",
+      "map_url": "https://maps.google.com/?q=Acropolis+Athens"
+    },
+    {
+      "name_zh": "梅特歐拉修道院",
+      "name_en": "Meteora",
+      "tag": "世界遺產",
+      "image": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=900&q=80",
+      "type": "modal",
+      "detail": "建在巨大岩柱頂端的東正教修道院群，是希臘最壯觀的世界遺產之一。多數人從雅典參加一至兩日的跟團前往。參觀時須注意服裝：男性需著長褲，女性需著長裙並覆蓋肩膀。",
+      "map_url": "https://maps.google.com/?q=Meteora+Greece"
+    },
+    {
+      "name_zh": "憲法廣場衛兵交接",
+      "name_en": "Syntagma Square",
+      "tag": "文化",
+      "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=900&q=80",
+      "type": "modal",
+      "detail": "希臘國會前的憲法廣場，可以看到傳統服飾的衛兵交接儀式（Evzones）。整點進行，動作緩慢而莊重，是雅典市區免費又值得一看的文化體驗。周邊還有無名戰士紀念碑與雅典國立花園。",
+      "map_url": "https://maps.google.com/?q=Syntagma+Square+Athens"
+    },
+    {
+      "name_zh": "蒙納斯提拉奇廣場",
+      "name_en": "Monastiraki",
+      "tag": "古城・市集",
+      "image": "https://images.unsplash.com/photo-1602951704295-22e8b87f25a6?w=900&q=80",
+      "type": "modal",
+      "detail": "雅典最熱鬧的古城區，有跳蚤市場、哈德良圖書館（門票約 10 歐）、古雅典阿哥拉（古市集，門票約 10 歐）、風之塔等景點。巷弄裡滿是紀念品店與小吃，是逛街、找伴手禮、體驗在地氛圍的好地方。",
+      "map_url": "https://maps.google.com/?q=Monastiraki+Athens"
+    },
+    {
+      "name_zh": "帕那辛奈克體育場",
+      "name_en": "Panathenaic Stadium",
+      "tag": "古蹟",
+      "image": "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=900&q=80",
+      "type": "modal",
+      "detail": "全世界唯一全大理石打造的體育場，也是 1896 年第一屆現代奧運的舉辦地。可以入內參觀，站上頒獎台拍照，感受奧運的歷史氛圍。",
+      "map_url": "https://maps.google.com/?q=Panathenaic+Stadium+Athens"
+    },
+    {
+      "name_zh": "利卡維多斯山丘",
+      "name_en": "Lykavittos Hill",
+      "tag": "景觀",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900&q=80",
+      "type": "modal",
+      "detail": "雅典市區的最高點，可搭纜車登頂。山頂能 360 度俯瞰整座雅典，遠眺衛城與愛琴海，是看日落的絕佳地點。",
+      "map_url": "https://maps.google.com/?q=Lycabettus+Hill+Athens"
+    }
+  ],
+  "food": [
+    {
+      "name_zh": "CTC 都會美食",
+      "name_en": "CTC Urban Gastronomy",
+      "tag": "創意希臘料理",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=80",
+      "type": "modal",
+      "detail": "雅典的精緻創意料理餐廳，將希臘食材以現代手法重新詮釋，氣氛優雅，適合慶祝特別的一餐。建議事先訂位。",
+      "map_url": "https://maps.google.com/?q=CTC+Urban+Gastronomy+Athens"
+    },
+    {
+      "name_zh": "Picky Brunch & Specialty Coffee",
+      "name_en": "Picky Brunch & Specialty Coffee",
+      "tag": "早午餐・精品咖啡",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=900&q=80",
+      "type": "modal",
+      "detail": "雅典市區的早午餐與精品咖啡小店，環境舒適，很適合作為一天的開始。我們在逛蒙納斯提拉奇前先來這裡吃早午餐、喝杯咖啡。",
+      "map_url": "https://maps.app.goo.gl/SH1fCff4Ar7q4paW8"
+    },
+    {
+      "name_zh": "Meat the Greek 希臘卷",
+      "name_en": "Meat the Greek",
+      "tag": "希臘卷 Souvlaki",
+      "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=900&q=80",
+      "type": "modal",
+      "detail": "平價又道地的希臘捲餅（Souvlaki / Gyros），份量大、料實在。當早午餐或逛累了的點心都很適合，是體驗希臘街頭美食的好選擇。",
+      "map_url": "https://maps.app.goo.gl/JixFoqiVE594taBd7"
+    },
+    {
+      "name_zh": "OVIO",
+      "name_en": "OVIO",
+      "tag": "咖啡・輕食",
+      "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=900&q=80",
+      "type": "modal",
+      "detail": "蒙納斯提拉奇附近的舒適咖啡輕食店，逛古市集走累了可以來歇腳，喝杯希臘咖啡或冰滴（Freddo Espresso）。",
+      "map_url": "https://maps.google.com/?q=OVIO+Athens"
+    }
+  ],
+  "tours": [
+    {
+      "name_zh": "梅特歐拉一日遊",
+      "name_en": "Meteora Day Tour",
+      "tag": "跟團行程",
+      "image": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=900&q=80",
+      "type": "modal",
+      "detail": "從雅典出發的梅特歐拉懸崖修道院跟團，含來回交通與導覽，省去自駕與規劃的麻煩。在火車站對面集合搭車，是造訪梅特歐拉最輕鬆的方式。",
+      "tour_url": "https://www.getyourguide.com/"
+    }
+  ],
+  "transport": [
+    {
+      "title": "機場到市區",
+      "icon": "bus",
+      "desc": "從雅典機場（ATH）可搭 X95 巴士直達憲法廣場，車程約 60 分鐘、約 5.5 歐，安全又方便。也可搭地鐵或計程車進市區。"
+    },
+    {
+      "title": "市區交通・地鐵",
+      "icon": "train-front",
+      "desc": "雅典地鐵與巴士可到達多數景點。前往火車站轉乘時要留意 Omonia 一帶的環境，財物隨身看管，特別是清早或夜晚。"
+    },
+    {
+      "title": "前往比雷埃夫斯港",
+      "icon": "ship",
+      "desc": "搭渡輪去克里特島等島嶼，從市區到比雷埃夫斯港（Piraeus）約 30 分鐘內。帶行李建議直接叫 Uber 或 FreeNow，比較省力。"
+    },
+    {
+      "title": "前往梅特歐拉",
+      "icon": "train",
+      "desc": "多數人選擇從雅典參加跟團，在火車站對面集合出發。自行前往則可搭火車到 Kalambaka，車程約 4 至 5 小時。"
+    }
+  ],
+  "souvenirs": [
+    {
+      "name_zh": "希臘橄欖油",
+      "name_en": "Olive Oil",
+      "desc": "希臘的初榨橄欖油品質極佳，超市與專門店都買得到，小瓶裝方便攜帶。"
+    },
+    {
+      "name_zh": "蜂蜜與乳香",
+      "name_en": "Honey & Mastiha",
+      "desc": "希臘百里香蜂蜜風味濃郁，希俄斯島的乳香（Mastiha）製品也很有特色。"
+    },
+    {
+      "name_zh": "希臘咖啡",
+      "name_en": "Greek Coffee",
+      "desc": "傳統希臘咖啡粉，配上小巧的咖啡杯組，是很有當地味道的伴手禮。"
+    },
+    {
+      "name_zh": "皮革涼鞋",
+      "name_en": "Leather Sandals",
+      "desc": "雅典老城手工製作的皮革涼鞋，耐穿又有希臘風格，可現場挑選。"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "intro": "希臘觀光區的餐廳大多有英文菜單，看到這些字就知道是什麼。以下整理希臘餐廳最常見的菜色與用語，點餐時對照著看就不會踩雷。",
+  "categories": [
+    {
+      "name": "烤肉與主食",
+      "icon": "utensils-crossed",
+      "items": [
+        {
+          "en": "Souvlaki",
+          "zh": "希臘烤肉串，常夾在餅裡或配飯"
+        },
+        {
+          "en": "Gyro / Gyros",
+          "zh": "旋轉烤肉，刨下來夾餅，類似沙威瑪"
+        },
+        {
+          "en": "Pita",
+          "zh": "希臘圓餅，包烤肉的餅皮"
+        },
+        {
+          "en": "Kebab",
+          "zh": "中東風味烤肉"
+        },
+        {
+          "en": "Moussaka",
+          "zh": "茄子千層派，希臘國民菜"
+        },
+        {
+          "en": "Souvla",
+          "zh": "大塊炭烤肉"
+        },
+        {
+          "en": "Kleftiko",
+          "zh": "慢烤羊肉，肉質軟嫩"
+        }
+      ]
+    },
+    {
+      "name": "海鮮",
+      "icon": "fish",
+      "items": [
+        {
+          "en": "Octopus",
+          "zh": "章魚，常見炭烤做法"
+        },
+        {
+          "en": "Calamari",
+          "zh": "炸花枝圈"
+        },
+        {
+          "en": "Grilled Fish",
+          "zh": "烤魚，常以重量計價"
+        },
+        {
+          "en": "Shrimp / Prawns",
+          "zh": "蝦"
+        },
+        {
+          "en": "Sea Bream",
+          "zh": "鯛魚"
+        },
+        {
+          "en": "Mussels",
+          "zh": "淡菜"
+        }
+      ]
+    },
+    {
+      "name": "前菜與沙拉",
+      "icon": "leaf",
+      "items": [
+        {
+          "en": "Greek Salad",
+          "zh": "希臘沙拉，番茄小黃瓜配費達起司"
+        },
+        {
+          "en": "Dakos",
+          "zh": "克里特島乾麵包沙拉"
+        },
+        {
+          "en": "Tzatziki",
+          "zh": "優格黃瓜蒜醬，配餅或肉"
+        },
+        {
+          "en": "Feta",
+          "zh": "費達羊起司"
+        },
+        {
+          "en": "Dolmades",
+          "zh": "葡萄葉包飯"
+        },
+        {
+          "en": "Tomatokeftedes",
+          "zh": "番茄丸子，聖托里尼名物"
+        },
+        {
+          "en": "Saganaki",
+          "zh": "煎起司"
+        },
+        {
+          "en": "Fava",
+          "zh": "黃豌豆泥"
+        }
+      ]
+    },
+    {
+      "name": "甜點與飲料",
+      "icon": "coffee",
+      "items": [
+        {
+          "en": "Baklava",
+          "zh": "千層蜂蜜堅果酥"
+        },
+        {
+          "en": "Loukoumades",
+          "zh": "希臘蜂蜜甜甜圈"
+        },
+        {
+          "en": "Greek Yogurt",
+          "zh": "希臘優格，常淋蜂蜜"
+        },
+        {
+          "en": "Frappe",
+          "zh": "希臘冰咖啡（搖出泡沫）"
+        },
+        {
+          "en": "Freddo Espresso",
+          "zh": "冰濃縮咖啡"
+        },
+        {
+          "en": "Ouzo",
+          "zh": "茴香酒，希臘國民烈酒"
+        },
+        {
+          "en": "Raki / Tsikoudia",
+          "zh": "克里特島葡萄烈酒"
+        },
+        {
+          "en": "Assyrtiko",
+          "zh": "聖托里尼火山白酒"
+        }
+      ]
+    },
+    {
+      "name": "點餐用語",
+      "icon": "message-circle",
+      "items": [
+        {
+          "en": "Menu",
+          "zh": "菜單"
+        },
+        {
+          "en": "House Wine",
+          "zh": "招牌餐酒，通常划算"
+        },
+        {
+          "en": "Starter / Appetizer",
+          "zh": "前菜"
+        },
+        {
+          "en": "Main Course",
+          "zh": "主菜"
+        },
+        {
+          "en": "Bill / Check",
+          "zh": "帳單（結帳時說）"
+        },
+        {
+          "en": "Tap Water",
+          "zh": "自來水（要免費水時說）"
+        },
+        {
+          "en": "Vegetarian",
+          "zh": "素食"
+        },
+        {
+          "en": "Per Kilo",
+          "zh": "每公斤計價（海鮮常見）"
+        }
+      ]
+    }
+  ]
+}

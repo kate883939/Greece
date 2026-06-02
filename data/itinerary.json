@@ -1,0 +1,53 @@
+{
+  "title": "希臘 15 天這樣玩",
+  "subtitle": "雅典・梅特歐拉・克里特島・聖托里尼",
+  "intro": "我們的希臘蜜月走了 15 天，從雅典的古蹟、梅特歐拉的懸崖修道院，一路到克里特島的祕境海灘與聖托里尼的藍頂日落。以下依地區分成三大段，先看時間軸掌握全程，再展開有興趣的段落看每天安排。每天提到的景點、餐廳、住宿都能點進去看細節。",
+  "segments": [
+    {
+      "id": "athens",
+      "name": "雅典 & 梅特歐拉",
+      "en": "Athens & Meteora",
+      "days": "Day 0–4",
+      "region_page": "athens.html",
+      "color": "athens",
+      "items": [
+        { "day": "Day 0", "date": "5/15", "title": "桃園出發", "summary": "搭長榮經維也納轉機飛雅典。", "stay": "機上" },
+        { "day": "Day 1", "date": "5/16", "title": "抵達雅典・市區古蹟", "summary": "中午抵達，搭 X95 進市區。逛憲法廣場衛兵交接、雅典國立花園、帕那辛奈克體育場，晚餐 CTC Urban Gastronomy。", "stay": "Mariet Athens Boutique Spa", "stay_page": "stay-mariet.html" },
+        { "day": "Day 2", "date": "5/17", "title": "梅特歐拉跟團（去）", "summary": "一早出發梅特歐拉跟團，參觀懸崖修道院，午餐在 Kalambaka。大行李寄放雅典飯店。", "stay": "Oikia Guesthouse Hotel", "stay_page": "stay-oikia.html" },
+        { "day": "Day 3", "date": "5/18", "title": "梅特歐拉健行・回雅典", "summary": "梅特歐拉健行團，午後回 Kalambaka 用餐，晚上拉車回雅典。", "stay": "Mariet Athens Boutique Spa", "stay_page": "stay-mariet.html" },
+        { "day": "Day 4", "date": "5/19", "title": "雅典深度・夜渡輪", "summary": "早午餐後逛蒙納斯提拉奇、衛城帕德嫩神殿。傍晚帶行李到比雷埃夫斯港，搭夜渡輪前往克里特島。", "stay": "夜渡輪 Blue Star Ferries" }
+      ]
+    },
+    {
+      "id": "crete",
+      "name": "克里特島",
+      "en": "Crete",
+      "days": "Day 5–9",
+      "region_page": "crete.html",
+      "color": "crete",
+      "items": [
+        { "day": "Day 5", "date": "5/20", "title": "抵達・取車・祕境海灘", "summary": "清早抵達 Souda 港取車，衝 Seitan Limania 祕境海灘，再到 Rethymno 舊城與城堡，回 Chania。", "stay": "Thallos The Boutique", "stay_page": "stay-thallos.html" },
+        { "day": "Day 6", "date": "5/21", "title": "Balos 瀉湖跟團", "summary": "參加 Balos 瀉湖跟團（搭船前往），傍晚回 Chania 舊城區晚餐。", "stay": "Thallos The Boutique", "stay_page": "stay-thallos.html" },
+        { "day": "Day 7", "date": "5/22", "title": "粉紅沙灘・前進 Loutro", "summary": "上午 Elafonissi 粉紅沙灘，下午到 Sfakia 港搭船進無車村 Loutro，海邊 Scirocco 晚餐。", "stay": "Sofia Rooms（Loutro）", "stay_page": "stay-sofia.html" },
+        { "day": "Day 8", "date": "5/23", "title": "Loutro 慢活・Matala", "summary": "上午在 Loutro 租躺椅看海下水看魚，搭船回 Sfakia，下午 Matala 海灘爬嬉皮洞穴，傍晚到 Heraklion。", "stay": "Vegga Suites（Heraklion）", "stay_page": "stay-vegga.html" },
+        { "day": "Day 9", "date": "5/24", "title": "克諾索斯宮・還車", "summary": "Phyllosophies 早餐，參觀克諾索斯宮與考古博物館，逛 Heraklion 舊城，傍晚還車。", "stay": "Vegga Suites（Heraklion）", "stay_page": "stay-vegga.html" }
+      ]
+    },
+    {
+      "id": "santorini",
+      "name": "聖托里尼 & 返程",
+      "en": "Santorini & Return",
+      "days": "Day 10–15",
+      "region_page": "santorini.html",
+      "color": "santorini",
+      "items": [
+        { "day": "Day 10", "date": "5/25", "title": "渡輪抵達聖托里尼", "summary": "搭高速渡輪從 Heraklion 到聖托里尼，早午餐逛費拉，下午可去 Kamari 海灘。", "stay": "Kudos Suites Firostefani", "stay_page": "stay-kudos.html" },
+        { "day": "Day 11", "date": "5/26", "title": "費拉・出海釣魚", "summary": "上午逛費拉，下午搭公車到 Vlihada 參加 Flora 出海釣魚體驗。", "stay": "Kudos Suites Firostefani", "stay_page": "stay-kudos.html" },
+        { "day": "Day 12", "date": "5/27", "title": "前往 Oia 伊亞", "summary": "從費拉前往伊亞（Oia），下午探索伊亞老城與藍頂教堂。", "stay": "克萊奧之夢別墅（Oia）", "stay_page": "stay-cloe.html" },
+        { "day": "Day 13", "date": "5/28", "title": "伊亞・飛回雅典", "summary": "上下午都在伊亞，傍晚搭愛琴海航空飛回雅典，入住市區飯店。", "stay": "Linkno Hotel（雅典）", "stay_page": "stay-linkno.html" },
+        { "day": "Day 14", "date": "5/29", "title": "雅典最後巡禮", "summary": "國家考古博物館、普拉卡老城，黃昏上利卡維多斯山丘看日落。晚上移動到機場附近住宿。", "stay": "ALPHA Apartments（含機場接送）" },
+        { "day": "Day 15", "date": "5/30", "title": "返程回台", "summary": "一早搭 ALPHA 接駁到機場，搭長榮經維也納轉機返台。", "stay": "機上 → 隔日抵台" }
+      ]
+    }
+  ]
+}

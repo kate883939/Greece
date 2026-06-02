@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>住宿推薦・實住分享｜Tripick 希臘</title>
+<link rel="canonical" href="https://tripick.com/accommodations.html">
+<meta property="og:url" content="https://tripick.com/accommodations.html">
+<meta name="description" content="希臘自助旅行的實住住宿推薦：雅典、克里特島、聖托里尼共 7 間親身入住的旅館，附 Booking.com 訂房連結與實住心得。">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="住宿推薦・實住分享｜Tripick 希臘">
+<meta property="og:description" content="親身入住的希臘住宿推薦，附訂房連結與實住心得。">
+<meta property="og:image" content="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand-group">
+      <a href="index.html" class="logo">Tripick</a>
+      <span class="country-label">🇬🇷 希臘</span>
+    </div>
+    <button class="nav-toggle" aria-label="選單"><i data-lucide="menu" class="nav-icon"></i></button>
+    <ul class="nav-links">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">希臘各地</a>
+        <ul class="dropdown-menu">
+          <li><a href="athens.html"><i data-lucide="landmark" class="dd-icon"></i><span>希臘本島<span class="en">Athens</span></span></a></li>
+          <li><a href="crete.html"><i data-lucide="palm-tree" class="dd-icon"></i><span>克里特島<span class="en">Crete</span></span></a></li>
+          <li><a href="santorini.html"><i data-lucide="sunrise" class="dd-icon"></i><span>聖托里尼<span class="en">Santorini</span></span></a></li>
+        </ul>
+      </li>
+      <li><a href="landmarks.html">著名景點</a></li>
+      <li><a href="restaurants.html">好吃餐廳</a></li>
+      <li><a href="accommodations.html">住宿推薦</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">實用筆記</a>
+        <ul class="dropdown-menu">
+          <li><a href="itinerary.html"><i data-lucide="map" class="dd-icon"></i><span>行程範例<span class="en">Itinerary</span></span></a></li>
+          <li><a href="packing.html"><i data-lucide="clipboard-list" class="dd-icon"></i><span>跳島行李清單<span class="en">Packing List</span></span></a></li>
+          <li><a href="phrases.html"><i data-lucide="utensils" class="dd-icon"></i><span>點餐常見單字<span class="en">Dining Words</span></span></a></li>
+          <li><a href="tips.html"><i data-lucide="lightbulb" class="dd-icon"></i><span>實用須知<span class="en">Travel Tips</span></span></a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">關於我們</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ 頁面標題區 ============ -->
+<header class="page-hero">
+  <div class="container">
+    <p class="section-eyebrow">Where We Stayed</p>
+    <h1 class="page-title">住宿推薦・實住分享</h1>
+    <p class="page-lead">每一間都是我們親自住過、真心覺得值得推薦的旅館。點進去看完整的實住心得，附上 Booking.com 連結，方便你直接查房價與訂房。</p>
+  </div>
+</header>
+
+<!-- ============ 篩選 Tab + 卡片牆 ============ -->
+<section class="section" style="padding-top:32px">
+  <div class="container">
+    <div class="tabs" id="region-tabs">
+      <button class="tab active" data-region="all">全部</button>
+      <button class="tab" data-region="athens">希臘本島</button>
+      <button class="tab" data-region="crete">克里特島</button>
+      <button class="tab" data-region="santorini">聖托里尼</button>
+    </div>
+    <div class="card-grid grid-3" id="stays-grid"></div>
+    <p class="empty-hint" id="empty-hint" hidden>這個地區還沒有住宿分享，敬請期待。</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">Tripick</div>
+        <p>Tripick · 為你篩選的旅行靈感。這裡是希臘篇，整理親身走過的景點、美食、住宿與交通。</p>
+      </div>
+      <div>
+        <h4>希臘各地</h4>
+        <ul>
+          <li><a href="athens.html">希臘本島 Athens</a></li>
+          <li><a href="crete.html">克里特島 Crete</a></li>
+          <li><a href="santorini.html">聖托里尼 Santorini</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>主題</h4>
+        <ul>
+          <li><a href="landmarks.html">著名景點</a></li>
+          <li><a href="restaurants.html">好吃餐廳</a></li>
+          <li><a href="accommodations.html">住宿推薦</a></li>
+          <li><a href="about.html">關於我們</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 希臘旅誌 Hellas. 用心整理每一段旅程。</div>
+      <div class="disclosure">本站部分連結為聯盟行銷連結，透過連結訂房或預訂行程，我們可能獲得回饋，不影響你的價格。</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/accommodations.js"></script>
+
+
+<script>lucide.createIcons();</script>
+</body>
+</html>

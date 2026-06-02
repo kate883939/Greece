@@ -1,0 +1,113 @@
+{
+  "region": {
+    "name_zh": "聖托里尼",
+    "name_en": "Santorini",
+    "tagline": "愛琴海上的藍頂之島",
+    "intro": "白牆、藍頂、火山口斷崖與全世界最著名的日落。聖托里尼是希臘最浪漫的島嶼，從熱鬧的費拉到靜謐的伊亞，每個轉角都像明信片。",
+    "hero": "https://images.unsplash.com/photo-1469796466635-455ede028aca?w=1800&q=80"
+  },
+  "landmarks": [
+    {
+      "name_zh": "伊亞日落",
+      "name_en": "Oia Sunset",
+      "tag": "景觀",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=900&q=80",
+      "type": "modal",
+      "detail": "伊亞（Oia）的日落被譽為全希臘最美。傍晚時分，整座小鎮的白牆會被染成金橘色，遊客聚集在城堡遺跡（Byzantine Castle Ruins）與沿崖步道等待那一刻。建議提早一小時卡位，或找一間有海景露台的餐廳邊用餐邊欣賞，避開人潮。",
+      "map_url": "https://maps.google.com/?q=Oia+Santorini"
+    },
+    {
+      "name_zh": "費拉斷崖步道",
+      "name_en": "Fira to Firostefani Path",
+      "tag": "散步路線",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=900&q=80",
+      "type": "modal",
+      "detail": "從費拉（Fira）沿著火山口崖邊往北走到費羅斯特法尼（Firostefani），是一段輕鬆又絕美的散步路線。一路上都是開闊的海景與白色教堂，約 15 至 20 分鐘，傍晚走特別舒服。",
+      "map_url": "https://maps.google.com/?q=Fira+Santorini"
+    },
+    {
+      "name_zh": "卡馬利黑沙灘",
+      "name_en": "Kamari Beach",
+      "tag": "海灘",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=80",
+      "type": "modal",
+      "detail": "聖托里尼東岸的黑色火山砂海灘，沙灘旁有成排的餐廳與酒吧。可以從費拉搭公車前往，是下午放鬆戲水的好去處。出發前建議先確認當地公車時刻表，班次會隨季節調整。",
+      "map_url": "https://maps.google.com/?q=Kamari+Beach+Santorini"
+    }
+  ],
+  "food": [
+    {
+      "name_zh": "費拉海景餐廳",
+      "name_en": "Fira Caldera View Restaurant",
+      "tag": "希臘料理・海景",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80",
+      "type": "modal",
+      "detail": "費拉沿著火山口一側有許多海景餐廳，傍晚邊用餐邊看夕陽是聖托里尼的經典體驗。建議事先訂位，特別是想要靠崖邊第一排座位的話。希臘料理如番茄丸子（Tomatokeftedes）、新鮮海鮮都值得一試。",
+      "map_url": "https://maps.google.com/?q=restaurants+Fira+Santorini"
+    },
+    {
+      "name_zh": "伊亞小酒館",
+      "name_en": "Oia Taverna",
+      "tag": "希臘小館",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=80",
+      "type": "modal",
+      "detail": "伊亞巷弄裡藏著不少氣氛溫馨的小酒館，遠離日落人潮後可以好好享用一頓道地希臘晚餐。希臘沙拉、烤章魚、慢烤羊肉都是常見的招牌。",
+      "map_url": "https://maps.google.com/?q=taverna+Oia+Santorini"
+    }
+  ],
+  "tours": [
+    {
+      "name_zh": "Flora 出海釣魚",
+      "name_en": "Flora Fishing Tour",
+      "tag": "出海體驗",
+      "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=900&q=80",
+      "type": "modal",
+      "detail": "從南端的 Vlihada 出發的小團出海釣魚體驗，傍晚的海上時光人不多，可以避開觀光人潮，是聖托里尼的隱藏行程。可搭公車到 Vlihada 集合。",
+      "tour_url": "https://www.getyourguide.com/"
+    }
+  ],
+  "transport": [
+    {
+      "title": "渡輪抵達",
+      "icon": "ship",
+      "desc": "從克里特島（Heraklion）搭高速渡輪約 1 小時 40 分鐘抵達聖托里尼的 Athinios 新港。下船後可搭接駁巴士、公車或預約接送上山到費拉。山路彎曲，會暈車的人建議坐前座或先備暈車藥。"
+    },
+    {
+      "title": "島上交通・公車",
+      "icon": "bus",
+      "desc": "費拉是全島公車網的中心，前往伊亞、卡馬利、Vlihada、機場等地都從費拉發車。班次隨季節調整，出發前建議查當地 KTEL 公車時刻表再規劃。"
+    },
+    {
+      "title": "費拉到伊亞",
+      "icon": "footprints",
+      "desc": "可搭公車（車程約 20 至 30 分鐘）或沿火山口崖邊步道健行（約 2 至 3 小時，沿途風景極美）。若帶行李移動，建議搭車並事先安排住宿端的行李協助。"
+    },
+    {
+      "title": "前往機場",
+      "icon": "plane",
+      "desc": "聖托里尼機場（JTR）距離費拉約 10 至 15 分鐘車程。從伊亞出發要預留較多時間。回程若搭愛琴海航空飛雅典，記得確認隨身與託運行李的重量與體積限制。"
+    }
+  ],
+  "souvenirs": [
+    {
+      "name_zh": "聖托里尼火山紅酒",
+      "name_en": "Assyrtiko Wine",
+      "desc": "火山土壤孕育出的獨特白酒，酸度明亮、帶礦物感，是聖托里尼最具代表性的伴手禮。"
+    },
+    {
+      "name_zh": "希臘橄欖油",
+      "name_en": "Olive Oil",
+      "desc": "希臘的初榨橄欖油品質極佳，小瓶裝方便攜帶，送禮自用兩相宜。"
+    },
+    {
+      "name_zh": "海綿與天然保養品",
+      "name_en": "Natural Sponge & Cosmetics",
+      "desc": "愛琴海天然海綿與橄欖製成的肥皂、護膚品，輕巧又有當地特色。"
+    },
+    {
+      "name_zh": "藍頂教堂磁鐵與陶器",
+      "name_en": "Ceramics & Magnets",
+      "desc": "手繪的藍白陶器與小磁鐵，把聖托里尼的招牌風景帶回家。"
+    }
+  ]
+}

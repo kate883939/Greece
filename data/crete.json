@@ -1,0 +1,203 @@
+{
+  "region": {
+    "name_zh": "克里特島",
+    "name_en": "Crete",
+    "tagline": "希臘最大島嶼的山海祕境",
+    "intro": "克里特島是希臘最大的島，也是米諾斯文明的發源地。這裡有粉紅色的沙灘、土耳其藍的瀉湖、威尼斯風情的舊城，以及只能搭船抵達的無車小村。山與海交織，每一段海岸線都值得探索。",
+    "hero": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=1800&q=80"
+  },
+  "landmarks": [
+    {
+      "name_zh": "Balos 瀉湖",
+      "name_en": "Balos Lagoon",
+      "tag": "海灘",
+      "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=900&q=80",
+      "type": "modal",
+      "detail": "粉白色沙灘配上夢幻的土耳其藍淺水瀉湖，是克里特島最具代表性的風景。道路顛簸且租車通常禁止駛入，建議參加當地跟團搭船前往，輕鬆又安全。",
+      "map_url": "https://maps.google.com/?q=Balos+Lagoon+Crete"
+    },
+    {
+      "name_zh": "Elafonissi 粉紅沙灘",
+      "name_en": "Elafonissi Beach",
+      "tag": "海灘",
+      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=900&q=80",
+      "type": "modal",
+      "detail": "天然粉紅貝殼砂形成的淺灘，海水清澈見底，適合戲水與拍照。位於克里特島西南端，從 Chania 開車約 1 小時 40 分鐘，是必訪的夢幻海灘。",
+      "map_url": "https://maps.google.com/?q=Elafonissi+Beach+Crete"
+    },
+    {
+      "name_zh": "Seitan Limania 祕境海灘",
+      "name_en": "Seitan Limania",
+      "tag": "海灘",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=80",
+      "type": "modal",
+      "detail": "藏在峽灣深處的祕境小海灘，碧綠海水夾在陡峭岩壁之間，景色震撼。需走一小段下坡山徑才能抵達，建議穿好走的鞋、避開正午高溫。",
+      "map_url": "https://maps.google.com/?q=Seitan+Limania+Crete"
+    },
+    {
+      "name_zh": "Matala 海灘",
+      "name_en": "Matala Beach",
+      "tag": "海灘",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=80",
+      "type": "modal",
+      "detail": "克里特島南岸的海灘，以岩壁上的古老洞穴聞名，當年嬉皮曾在此居住。海邊浪稍大，旁邊的岩石洞穴區很值得一爬（需另收門票），爬上去看洞穴很有趣。提醒：一定要穿好走的鞋，海陸兩用鞋最理想。",
+      "map_url": "https://maps.google.com/?q=Matala+Beach+Crete"
+    },
+    {
+      "name_zh": "克諾索斯宮遺址",
+      "name_en": "Knossos Palace",
+      "tag": "古蹟",
+      "image": "https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=900&q=80",
+      "type": "modal",
+      "detail": "歐洲最古老的城市遺址之一，米諾斯文明的王宮，傳說中牛頭怪迷宮的所在地。門票約 20 歐，園區蠻大、可走的地方多，內有廁所。搭配伊拉克利翁考古博物館一起參觀，更能理解這段三千多年前的文明。",
+      "map_url": "https://maps.google.com/?q=Knossos+Palace+Crete"
+    },
+    {
+      "name_zh": "Chania 舊城區",
+      "name_en": "Chania Old Town",
+      "tag": "古城",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=900&q=80",
+      "type": "modal",
+      "detail": "威尼斯人留下的港口舊城，彩色的老房子沿著海港排列，巷弄裡有手工藝品店與小餐館。傍晚沿著威尼斯港散步、用晚餐，是克里特島最浪漫的時光之一。",
+      "map_url": "https://maps.google.com/?q=Chania+Old+Town+Crete"
+    },
+    {
+      "name_zh": "Loutro 無車小村",
+      "name_en": "Loutro",
+      "tag": "祕境村莊",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=900&q=80",
+      "type": "modal",
+      "detail": "位於南岸、只能搭船或徒步抵達的無車小漁村。白藍相間的房子沿著海灣排列，沒有車聲、極度寧靜。海水清澈見魚，岩灘旁可租躺椅看海，是想徹底放空的旅人的世外桃源。",
+      "map_url": "https://maps.google.com/?q=Loutro+Crete"
+    },
+    {
+      "name_zh": "雷西姆龍城堡",
+      "name_en": "Fortezza of Rethymno",
+      "tag": "古蹟",
+      "image": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=900&q=80",
+      "type": "modal",
+      "detail": "位於 Rethymno 舊城的威尼斯時期堡壘，居高臨下可俯瞰舊城與海港。逛 Rethymno 舊城時很適合順遊。",
+      "map_url": "https://maps.google.com/?q=Fortezza+Rethymno"
+    }
+  ],
+  "food": [
+    {
+      "name_zh": "Cavo D'oro 海港餐廳",
+      "name_en": "Cavo D'oro Restaurant",
+      "tag": "海港餐廳・Rethymno",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80",
+      "type": "modal",
+      "detail": "Rethymno 威尼斯港邊的餐廳，可以邊用餐邊欣賞港口風景。逛完 Rethymno 舊城與城堡後，很適合來這裡歇腳用餐。",
+      "map_url": "https://maps.app.goo.gl/7GhzcYgZX7u9CNf38"
+    },
+    {
+      "name_zh": "Scirocco Cafe Rooms",
+      "name_en": "Scirocco Cafe Rooms",
+      "tag": "海邊咖啡・Loutro",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=900&q=80",
+      "type": "modal",
+      "detail": "Loutro 海邊的咖啡餐館，人不多、就坐在海邊，視野很好。傍晚七點多的天空特別夢幻。我們為了避開腸胃風險沒點海鮮，整體仍很滿意。",
+      "map_url": "https://maps.app.goo.gl/LLzQGzDtAL4oi5rR9"
+    },
+    {
+      "name_zh": "Hrisoula Market & More",
+      "name_en": "Hrisoula Market & More",
+      "tag": "雜貨・早餐・Loutro",
+      "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=900&q=80",
+      "type": "modal",
+      "detail": "Loutro 的小雜貨店，可以買麵包、咖啡當早餐。還能跟老闆娘租店前岩灘的躺椅（一組約 20 歐：一把傘 + 兩張躺椅）。坐在躺椅上看海吃早餐、戴面鏡下水看魚，海水非常清澈。提醒：離開岩灘後水會變深很快，待在較淺處就有魚可看。",
+      "map_url": "https://maps.app.goo.gl/n4ZvayUq4nzuBhQ96"
+    },
+    {
+      "name_zh": "Porto Loutro Beach Cafe",
+      "name_en": "Hotel Porto Loutro Beach Cafe",
+      "tag": "海景輕食・Loutro",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=80",
+      "type": "modal",
+      "detail": "Loutro 的海景咖啡（在二樓），老闆娘很親切。我們點了三明治和優格當午餐，三明治烤得熱熱的很好吃，是搭船離開前的好選擇。",
+      "map_url": "https://maps.app.goo.gl/JFeZb1tfcrQKHkvY8"
+    },
+    {
+      "name_zh": "Phyllosophies（Liontaria）",
+      "name_en": "Phyllosophies",
+      "tag": "早餐・Heraklion",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=900&q=80",
+      "type": "modal",
+      "detail": "伊拉克利翁獅子廣場旁的早餐店，東西很好吃。我們點了 Cretan Sandwich、Loukoumades 與 Bougatsa。通常人很多，老闆很熱情，座位前方就能看著獅子噴泉。住 Vegga Suites 來這裡用餐有 9 折優惠。",
+      "map_url": "https://maps.app.goo.gl/xqzLt3snF3E8czLSA"
+    },
+    {
+      "name_zh": "Street Project TILIXTO",
+      "name_en": "Street Project TILIXTO",
+      "tag": "希臘卷 Gyros・Heraklion",
+      "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=900&q=80",
+      "type": "modal",
+      "detail": "伊拉克利翁的 Gyros 希臘卷，份量大又好吃。我們外帶回旅館吃，很適合忙碌一天後的晚餐。",
+      "map_url": "https://maps.app.goo.gl/nBC7zm2NkWBxqEvJ7"
+    },
+    {
+      "name_zh": "Veneti Cafe",
+      "name_en": "Veneti Cafe",
+      "tag": "休息站咖啡",
+      "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=900&q=80",
+      "type": "modal",
+      "detail": "從 Souda 港前往 Seitan Limania 途中的咖啡店，是中途休息、上廁所的好地點。",
+      "map_url": "https://maps.app.goo.gl/Mdq6HrutH2zBga6V9"
+    }
+  ],
+  "tours": [
+    {
+      "name_zh": "Balos 瀉湖跟團",
+      "name_en": "Balos Lagoon Tour",
+      "tag": "跟團行程",
+      "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=900&q=80",
+      "type": "modal",
+      "detail": "搭船前往無法自駕抵達的 Balos 瀉湖，是探訪這片夢幻海灣最輕鬆的方式。通常從 Chania 集合出發，沿途還會停靠 Gramvousa 海盜島。",
+      "tour_url": "https://www.getyourguide.com/"
+    }
+  ],
+  "transport": [
+    {
+      "title": "渡輪抵達",
+      "icon": "ship",
+      "desc": "從雅典比雷埃夫斯港搭夜間渡輪可抵達 Chania（Souda 港）或 Heraklion。夜船可省一晚住宿，隔天一早抵達直接展開行程。"
+    },
+    {
+      "title": "租車自駕",
+      "icon": "car",
+      "desc": "克里特島面積大，自駕最自由。注意：多數租車公司禁止把車開去 Balos Beach 的顛簸路段，租車前務必確認條款。"
+    },
+    {
+      "title": "南岸搭船",
+      "icon": "sailboat",
+      "desc": "前往 Loutro 等南岸無車村，需從 Sfakia 港搭船（Anendyk 或 Deligiannis 船公司）。班次有限，務必先查好船班時間再安排。"
+    },
+    {
+      "title": "前往聖托里尼",
+      "icon": "plane",
+      "desc": "從 Heraklion 港搭高速渡輪約 1 小時 40 分鐘可達聖托里尼。建議提前在網路上 web check-in，旺季船票會售罄。"
+    }
+  ],
+  "souvenirs": [
+    {
+      "name_zh": "克里特橄欖油",
+      "name_en": "Cretan Olive Oil",
+      "desc": "克里特島是希臘橄欖油的重要產地，品質與風味都屬上乘，是最具代表性的伴手禮。"
+    },
+    {
+      "name_zh": "Raki 拉基酒",
+      "name_en": "Raki / Tsikoudia",
+      "desc": "克里特島特產的葡萄蒸餾烈酒，當地人餐後必飲，小瓶裝可帶回家當紀念。"
+    },
+    {
+      "name_zh": "山區野生蜂蜜",
+      "name_en": "Thyme Honey",
+      "desc": "克里特山區的百里香蜂蜜香氣濃郁，品質享譽全希臘。"
+    },
+    {
+      "name_zh": "手工皮革與編織",
+      "name_en": "Leather & Textiles",
+      "desc": "Chania 與 Rethymno 舊城有許多手工皮件與傳統編織品，富有在地特色。"
+    }
+  ]
+}
