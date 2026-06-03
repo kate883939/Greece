@@ -8,7 +8,18 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!coming-soon\\.html|css/|js/|data/|robots\\.txt|sitemap\\.xml|favicon\\.ico).*)",
+      "source": "/",
+      "destination": "/coming-soon.html",
+      "missing": [
+        {
+          "type": "query",
+          "key": "preview",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "source": "/:path((?!coming-soon\\.html|css/|js/|data/|robots\\.txt|sitemap\\.xml|favicon\\.ico).*)",
       "destination": "/coming-soon.html",
       "missing": [
         {
