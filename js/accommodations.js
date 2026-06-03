@@ -48,14 +48,7 @@ function initTabs() {
 
 // ---------- 行動版選單（共用） ----------
 function initNav() {
-  const toggle = document.querySelector('.nav-toggle');
-  const links = document.querySelector('.nav-links');
-  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
-  document.querySelectorAll('.dropdown-toggle').forEach(t => {
-    t.addEventListener('click', (e) => {
-      if (window.innerWidth <= 720) { e.preventDefault(); t.closest('.dropdown').classList.toggle('open'); }
-    });
-  });
+  if (window.initSiteNav) window.initSiteNav();
 }
 
 // ---------- 滾動進場（共用） ----------

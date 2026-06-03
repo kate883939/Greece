@@ -143,12 +143,7 @@
     </div>
   </div>
 </footer>
-<script>
-  document.querySelector('.nav-toggle').addEventListener('click', () => document.querySelector('.nav-links').classList.toggle('open'));
-  document.querySelectorAll('.dropdown-toggle').forEach(t => t.addEventListener('click', e => {
-    if (window.innerWidth <= 720) { e.preventDefault(); t.closest('.dropdown').classList.toggle('open'); }
-  }));
-</script>
+<script src="js/nav.js"></script>
 <script>lucide.createIcons();</script>
 </body>
 </html>

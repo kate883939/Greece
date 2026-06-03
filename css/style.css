@@ -95,6 +95,7 @@ a { color: inherit; text-decoration: none; }
 .dropdown-menu a:hover { background: var(--sand); }
 .dropdown-menu .ic { font-size: 20px; }
 .dropdown-menu .en { display: block; font-size: 12px; color: var(--ink-soft); letter-spacing: 0.04em; }
+.nav-back { display: none; }
 
 .nav-toggle { display: none; background: none; border: none; font-size: 26px; cursor: pointer; color: var(--ink); }
 
@@ -185,6 +186,11 @@ a { color: inherit; text-decoration: none; }
   margin-top: 18px; font-size: 14px; font-weight: 600; color: var(--aegean);
   display: inline-flex; align-items: center; gap: 6px; align-self: flex-end;
 }
+.card-link svg { width: 16px; height: 16px; transition: transform 0.2s; }
+/* 彈窗型用較柔和的灰，文章型用主色凸顯「會前往」 */
+.card-modal .card-link { color: var(--ink-soft); }
+.card-article .card-link { color: var(--aegean); }
+.card-article:hover .card-link svg { transform: translateX(3px); }
 .card-btn {
   margin-top: 18px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   padding: 12px 18px; background: var(--aegean); color: #fff; border-radius: 100px;
@@ -226,18 +232,86 @@ a { color: inherit; text-decoration: none; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
 }
 @media (max-width: 720px) {
+  body { padding-bottom: 0; }
+  .footer { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+  .nav {
+    position: sticky; top: 0; bottom: auto;
+    z-index: 1400; overflow: visible; backdrop-filter: none; -webkit-backdrop-filter: none;
+    border-top: none; border-bottom: 1px solid var(--line);
+  }
+  .nav-inner { height: 72px; padding-bottom: 0; }
   .nav-links {
-    position: fixed; top: 72px; left: 0; right: 0; flex-direction: column;
+    position: fixed; top: auto; left: 0; right: 0; bottom: 0; z-index: 1200;
+    width: auto; max-height: calc(100dvh - 96px - env(safe-area-inset-bottom));
+    overflow-y: auto; flex-direction: column;
     align-items: stretch; gap: 0; background: var(--white);
-    border-bottom: 1px solid var(--line); padding: 8px;
-    transform: translateY(-120%); transition: transform 0.3s; box-shadow: var(--shadow);
+    border-top: 1px solid var(--line); border-radius: 22px 22px 0 0;
+    padding: 18px 16px calc(24px + env(safe-area-inset-bottom));
+    transform: translateY(100%); transition: transform 0.3s ease; box-shadow: var(--shadow-hover);
   }
   .nav-links.open { transform: translateY(0); }
-  .nav-toggle { display: block; }
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom)); z-index: 1300;
+    width: 56px; height: 56px; border-radius: 999px;
+    background: var(--aegean-deep); color: var(--white); box-shadow: var(--shadow-hover);
+  }
+  /* ---- 多層抽屜：母選單點擊後切換到下一層 ---- */
+  .nav-links { overflow-x: hidden; }
+  .nav-links > li > .dropdown-toggle {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .dropdown-toggle::after { content: '›'; margin: 0; top: 0; font-size: 20px; opacity: 0.6; }
+
   .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none;
-    box-shadow: none; border: none; padding: 0 0 0 16px; min-width: auto; display: none; }
-  .dropdown.open .dropdown-menu { display: block; }
+    box-shadow: none; border: none; padding: 0; min-width: auto; display: none; }
+
+  /* 子層開啟時：隱藏其他項目，只顯示被點選的子選單 */
+  .nav-links.submenu-open > li:not(.active) { display: none; }
+  .nav-links.submenu-open > li.dropdown.active > .dropdown-toggle { display: none; }
+  .nav-links.submenu-open > li.dropdown.active > .dropdown-menu {
+    display: block; animation: navSubIn 0.28s ease;
+  }
+  @keyframes navSubIn {
+    from { opacity: 0; transform: translateX(28px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+
+  /* 返回按鈕（由 JS 注入到子選單最前面） */
+  .nav-links.submenu-open .dropdown.active .nav-back {
+    display: flex; align-items: center; gap: 6px; width: 100%;
+    background: none; border: none; cursor: pointer; font: inherit;
+    padding: 8px 14px 12px; margin-bottom: 6px;
+    color: var(--aegean); font-size: 15px; font-weight: 600;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-back-arrow { font-size: 24px; line-height: 1; position: relative; top: -1px; }
+  .region-card { height: 220px; }
+  .region-card .meta { padding: 24px; }
+  .region-card .zh { font-size: 28px; }
+  .region-card .arrow { margin-top: 10px; }
+  #accommodations-grid,
+  #restaurants-grid {
+    display: flex; gap: 18px; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory;
+    padding: 0 0 8px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  #accommodations-grid::-webkit-scrollbar,
+  #restaurants-grid::-webkit-scrollbar { display: none; }
+  #accommodations-grid .card,
+  #restaurants-grid .card {
+    flex: 0 0 68%; scroll-snap-align: start;
+  }
   .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  #landmarks-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  #landmarks-grid .card-img { aspect-ratio: 4 / 3; }
+  #landmarks-grid .card-body { padding: 16px; }
+  #landmarks-grid .card-name { font-size: 17px; }
+  #landmarks-grid .card-blurb {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; font-size: 13px; margin-top: 8px;
+  }
   .section { padding: 56px 0; }
 }
 
@@ -346,7 +420,7 @@ a { color: inherit; text-decoration: none; }
 .region-hero h1 { font-family: var(--serif); font-size: clamp(40px, 7vw, 76px); font-weight: 600; margin: 0; }
 .region-hero .tagline { font-size: 18px; opacity: 0.92; }
 .region-intro { background: var(--aegean-deep); padding: 40px 0; }
-.region-intro p { max-width: 70ch; font-size: 17px; color: var(--white); line-height: 1.9; }
+.region-intro p { max-width: 70ch; font-size: 17px; color: var(--aegean-light); line-height: 1.9; }
 
 /* 地區 HERO 滿版大圖，介紹為其下方的深藍區塊 */
 .region-top .region-hero { width: 100%; }
@@ -665,7 +739,7 @@ a { color: inherit; text-decoration: none; }
 [data-lucide], i[data-lucide] { display: inline-block; vertical-align: middle; }
 
 /* Nav 漢堡選單 */
-.nav-icon { width: 22px; height: 22px; stroke: var(--ink); }
+.nav-icon { width: 22px; height: 22px; stroke: currentColor; }
 
 /* Dropdown 地區/實用筆記 */
 .dd-icon { width: 18px; height: 18px; stroke: var(--aegean); flex-shrink: 0; }

@@ -7,9 +7,10 @@ const REGION = window.REGION;
 let regionData = null;
 
 /* ---------- 卡片模板 ---------- */
+/* 彈窗型：點整張卡片在原頁開彈窗，CTA 用放大鏡 + 「看重點」 */
 function modalCard(item, kind) {
   return `
-    <article class="card reveal" data-kind="${kind}" data-name="${item.name_zh}">
+    <article class="card card-modal reveal" data-kind="${kind}" data-name="${item.name_zh}">
       <div class="card-img">
         <span class="card-tag">${item.tag || ''}</span>
         <img src="${item.image}" alt="${item.name_zh}" loading="lazy">
@@ -17,9 +18,25 @@ function modalCard(item, kind) {
       <div class="card-body">
         <h3 class="card-name">${item.name_zh}<span class="en">${item.name_en}</span></h3>
         <p class="card-blurb">${(item.detail || '').slice(0, 48)}…</p>
-        <span class="card-link">看詳細</span>
+        <span class="card-link"><i data-lucide="zoom-in"></i>看重點</span>
       </div>
     </article>`;
+}
+
+/* 文章型：整張卡片是連到獨立文章頁的連結，CTA 用箭頭 + 「看完整介紹」 */
+function articleCard(item, kind) {
+  return `
+    <a class="card card-article reveal" href="${item.page}" data-kind="${kind}" data-name="${item.name_zh}">
+      <div class="card-img">
+        <span class="card-tag">${item.tag || ''}</span>
+        <img src="${item.image}" alt="${item.name_zh}" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">${item.name_zh}<span class="en">${item.name_en}</span></h3>
+        <p class="card-blurb">${(item.detail || '').slice(0, 48)}…</p>
+        <span class="card-link">看完整介紹 <i data-lucide="arrow-right"></i></span>
+      </div>
+    </a>`;
 }
 
 function stayCard(item) {
@@ -66,9 +83,15 @@ function closeModal() {
 function renderSection(containerId, items, kind) {
   const el = document.getElementById(containerId);
   if (!el || !items) return;
-  el.innerHTML = items.map(it => modalCard(it, kind)).join('');
+  el.innerHTML = items
+    .map(it => (it.type === 'article' && it.page) ? articleCard(it, kind) : modalCard(it, kind))
+    .join('');
   el.querySelectorAll('.card').forEach((card, i) => {
-    card.addEventListener('click', () => openModal(items[i], kind));
+    const item = items[i];
+    // 文章型本身是 <a> 連結，不掛彈窗事件
+    if (!(item.type === 'article' && item.page)) {
+      card.addEventListener('click', () => openModal(item, kind));
+    }
   });
 }
 
@@ -94,14 +117,7 @@ function renderSouvenirs(items) {
 
 /* ---------- 共用：Nav、進場動畫 ---------- */
 function initNav() {
-  const toggle = document.querySelector('.nav-toggle');
-  const links = document.querySelector('.nav-links');
-  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
-  document.querySelectorAll('.dropdown-toggle').forEach(t => {
-    t.addEventListener('click', (e) => {
-      if (window.innerWidth <= 720) { e.preventDefault(); t.closest('.dropdown').classList.toggle('open'); }
-    });
-  });
+  if (window.initSiteNav) window.initSiteNav();
 }
 let revealObserver;
 function observeReveal() {
