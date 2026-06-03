@@ -6,6 +6,17 @@
     return new URLSearchParams(window.location.search).get('preview') === 'true';
   }
 
+  function enforceComingSoon() {
+    const isPublicHost =
+      window.location.hostname === 'tripick.co' ||
+      window.location.hostname === 'www.tripick.co' ||
+      window.location.hostname.endsWith('.vercel.app');
+
+    if (!isPublicHost || isPreviewMode() || window.location.pathname === '/coming-soon.html') return;
+
+    window.location.replace('/coming-soon.html');
+  }
+
   function enablePreviewLinks() {
     if (!isPreviewMode()) return;
 
@@ -24,6 +35,8 @@
       link.href = url.pathname + url.search + url.hash;
     }, true);
   }
+
+  enforceComingSoon();
 
   function resetSubmenu(links) {
     links.classList.remove('submenu-open');
