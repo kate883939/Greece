@@ -2,6 +2,29 @@
    共用導覽列：手機選單
    ============================================ */
 (function () {
+  function isPreviewMode() {
+    return new URLSearchParams(window.location.search).get('preview') === 'true';
+  }
+
+  function enablePreviewLinks() {
+    if (!isPreviewMode()) return;
+
+    document.addEventListener('click', event => {
+      const target = event.target;
+      const link = target instanceof Element ? target.closest('a[href]') : null;
+      if (!link || link.target || link.hasAttribute('download')) return;
+
+      const href = link.getAttribute('href');
+      if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+
+      const url = new URL(href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+
+      url.searchParams.set('preview', 'true');
+      link.href = url.pathname + url.search + url.hash;
+    }, true);
+  }
+
   function resetSubmenu(links) {
     links.classList.remove('submenu-open');
     links.querySelectorAll('.dropdown.active').forEach(d => d.classList.remove('active'));
@@ -63,5 +86,8 @@
     });
   };
 
-  document.addEventListener('DOMContentLoaded', window.initSiteNav);
+  document.addEventListener('DOMContentLoaded', () => {
+    window.initSiteNav();
+    enablePreviewLinks();
+  });
 })();

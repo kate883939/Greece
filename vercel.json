@@ -5,5 +5,18 @@
       "destination": "/",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!coming-soon\\.html|css/|js/|data/|robots\\.txt|sitemap\\.xml|favicon\\.ico).*)",
+      "destination": "/coming-soon.html",
+      "missing": [
+        {
+          "type": "query",
+          "key": "preview",
+          "value": "true"
+        }
+      ]
+    }
   ]
 }
