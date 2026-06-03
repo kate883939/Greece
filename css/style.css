@@ -157,6 +157,7 @@ a { color: inherit; text-decoration: none; }
 /* ============================================
    通用卡片
    ============================================ */
+.carousel-wrap { position: relative; }
 .card-grid { display: grid; gap: 28px; }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
@@ -237,8 +238,38 @@ a { color: inherit; text-decoration: none; }
   .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none;
     box-shadow: none; border: none; padding: 0 0 0 16px; min-width: auto; display: none; }
   .dropdown.open .dropdown-menu { display: block; }
-  .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .section { padding: 56px 0; }
+
+  /* 手機版卡片：橫向滑動（露出約 1.5 張）+ 右側漸層提示 */
+  .card-grid {
+    display: flex;
+    grid-template-columns: none;
+    gap: 16px;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -24px;
+    padding: 6px 24px 10px;
+    scroll-padding-left: 24px;
+    scrollbar-width: none;
+  }
+  .card-grid::-webkit-scrollbar { display: none; }
+  .card-grid > .card {
+    flex: 0 0 66%;
+    scroll-snap-align: start;
+  }
+  .carousel-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -24px;
+    width: 56px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--carousel-fade, var(--white)));
+    pointer-events: none;
+    z-index: 3;
+  }
 }
 
 /* ============================================
