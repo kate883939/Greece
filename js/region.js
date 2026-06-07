@@ -40,21 +40,7 @@ function articleCard(item, kind) {
 }
 
 function stayCard(item) {
-  return `
-    <article class="card reveal">
-      <a href="${item.page}" class="card-img">
-        <span class="card-tag hot">${item.rating}</span>
-        <img src="${item.image}" alt="${item.name_zh}" loading="lazy">
-      </a>
-      <div class="card-body">
-        <div class="card-region">${item.location}</div>
-        <h3 class="card-name"><a href="${item.page}">${item.name_zh}</a><span class="en">${item.name_en}</span></h3>
-        <p class="card-blurb">${item.blurb}</p>
-        <div class="card-actions">
-          <a class="btn btn-primary" href="${item.page}">實住心得 →</a>
-        </div>
-      </div>
-    </article>`;
+  return stayCardHtml(item, { showFacts: true });
 }
 
 /* ---------- 彈窗 ---------- */
@@ -145,10 +131,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     regionData = await res.json();
 
     renderSection('landmarks-grid', regionData.landmarks, 'landmark');
-    renderSection('food-grid', regionData.food, 'food');
     renderSection('tours-grid', regionData.tours, 'tour');
     renderTransport(regionData.transport);
     renderSouvenirs(regionData.souvenirs);
+
+    const foodArticles = await loadFoodArticles();
+    const regionFood = foodArticles.filter(a => a.region_key === REGION);
+    renderFoodArticleCards('food-grid', regionFood, 'horizontal');
+    observeReveal();
 
     // 住宿：從 accommodations.json 篩出本區
     const accRes = await fetch('data/accommodations.json');
@@ -165,7 +155,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (wantModal) {
       const pools = [
         { list: regionData.landmarks || [], kind: 'landmark' },
-        { list: regionData.food || [], kind: 'food' },
         { list: regionData.tours || [], kind: 'tour' }
       ];
       for (const pool of pools) {

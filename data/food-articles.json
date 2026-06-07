@@ -1,0 +1,458 @@
+[
+  {
+    "id": "athens",
+    "region_key": "athens",
+    "region_zh": "希臘本島",
+    "area_zh": "雅典",
+    "area_en": "Athens",
+    "title": "雅典好吃餐廳推薦",
+    "title_en": "Where to Eat in Athens",
+    "blurb": "從創意 fine dining 到街頭 Souvlaki、精品早午餐與古城咖啡，我們在雅典市區實際吃過、覺得值得推薦的餐廳整理。",
+    "intro": "雅典是我們希臘行的起點，也是回程前的最後一站。市區動線以憲法廣場、蒙納斯提拉奇與衛城周邊為主，這幾間餐廳剛好能串進不同節奏的一天：精品早午餐開場、古城區咖啡歇腳、平價 Souvlaki 填飽肚子，特別的日子則留給創意料理。",
+    "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1800&q=80",
+    "page": "food-athens.html",
+    "restaurants": [
+      {
+        "id": "ctc",
+        "name_zh": "CTC 都會美食",
+        "name_en": "CTC Urban Gastronomy",
+        "tag": "創意希臘料理",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+        "review": "雅典的精緻創意料理餐廳，將希臘食材以現代手法重新詮釋，氣氛優雅，適合慶祝特別的一餐。從前菜到主餐都有驚喜，服務也細緻。",
+        "ordered": [
+          "品嚐菜單（依當日季節調整）"
+        ],
+        "price": "$$$",
+        "map_url": "https://maps.google.com/?q=CTC+Urban+Gastronomy+Athens",
+        "reservation": "強烈建議事先訂位，週末與旺季通常額滿。",
+        "ratings": {
+          "food": 5,
+          "service": 5,
+          "view": 4,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "picky",
+        "name_zh": "Picky Brunch & Specialty Coffee",
+        "name_en": "Picky Brunch & Specialty Coffee",
+        "tag": "早午餐・精品咖啡",
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=1200&q=80",
+        "review": "雅典市區的早午餐與精品咖啡小店，環境舒適，很適合作為一天的開始。我們在逛蒙納斯提拉奇前先來這裡吃早午餐、喝杯咖啡，帶著飽足感慢慢走古城。",
+        "ordered": [
+          "早午餐套餐",
+          "精品咖啡"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/SH1fCff4Ar7q4paW8",
+        "reservation": "週末尖峰時段可能需要稍等，平日通常可直接入座。",
+        "ratings": {
+          "food": 4,
+          "service": 4,
+          "view": 3,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "meat-the-greek",
+        "name_zh": "Meat the Greek 希臘卷",
+        "name_en": "Meat the Greek",
+        "tag": "希臘卷 Souvlaki",
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=1200&q=80",
+        "review": "平價又道地的希臘捲餅（Souvlaki / Gyros），份量大、料實在。當早午餐或逛累了的點心都很適合，是體驗希臘街頭美食的好選擇。",
+        "ordered": [
+          "Gyros 捲餅",
+          "Souvlaki"
+        ],
+        "price": "$",
+        "map_url": "https://maps.app.goo.gl/JixFoqiVE594taBd7",
+        "reservation": "外帶為主，尖峰時段排隊屬正常現象。",
+        "ratings": {
+          "food": 4,
+          "service": 3,
+          "view": null,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "ovio",
+        "name_zh": "OVIO",
+        "name_en": "OVIO",
+        "tag": "咖啡・輕食",
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80",
+        "review": "蒙納斯提拉奇附近的舒適咖啡輕食店，逛古市集走累了可以來歇腳，喝杯希臘咖啡或冰滴（Freddo Espresso）。",
+        "ordered": [
+          "Freddo Espresso",
+          "輕食"
+        ],
+        "price": "$",
+        "map_url": "https://maps.google.com/?q=OVIO+Athens",
+        "reservation": "通常不需訂位，戶外座位視天氣而定。",
+        "ratings": {
+          "food": 3,
+          "service": 3,
+          "view": null,
+          "revisit": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "crete-chania",
+    "region_key": "crete",
+    "region_zh": "克里特島",
+    "area_zh": "哈尼亞",
+    "area_en": "Chania",
+    "title": "克里特島哈尼亞・Loutro 美食推薦",
+    "title_en": "Where to Eat in Chania & Loutro",
+    "blurb": "西克里特島的舊城風味，加上只能搭船抵達的 Loutro 小漁村海邊餐館，還有自駕途中的休息站咖啡。",
+    "intro": "哈尼亞（Chania）是探索西克里特島的最佳據點，舊城港灣、Balos 跟團出發都在這一帶。我們也從 Sfakia 搭船去了無車小村 Loutro，在那裡吃了幾餐難忘的海邊料理。這篇整理西克里特動線上實際造訪的餐廳與咖啡。",
+    "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1800&q=80",
+    "page": "food-crete-chania.html",
+    "restaurants": [
+      {
+        "id": "scirocco",
+        "name_zh": "Scirocco Cafe Rooms",
+        "name_en": "Scirocco Cafe Rooms",
+        "tag": "海邊咖啡・Loutro",
+        "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1200&q=80",
+        "review": "Loutro 海邊的咖啡餐館，人不多、就坐在海邊，視野很好。傍晚七點多的天空特別夢幻。我們為了避開腸胃風險沒點海鮮，整體仍很滿意。",
+        "ordered": [
+          "輕食",
+          "飲料"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/LLzQGzDtAL4oi5rR9",
+        "reservation": "Loutro 小村餐廳不多，旺季建議早點去卡位。",
+        "ratings": {
+          "food": 3,
+          "service": 4,
+          "view": 5,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "hrisoula",
+        "name_zh": "Hrisoula Market & More",
+        "name_en": "Hrisoula Market & More",
+        "tag": "雜貨・早餐・Loutro",
+        "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&q=80",
+        "review": "Loutro 的小雜貨店，可以買麵包、咖啡當早餐。還能跟老闆娘租店前岩灘的躺椅（一組約 20 歐：一把傘 + 兩張躺椅）。坐在躺椅上看海吃早餐、戴面鏡下水看魚，海水非常清澈。",
+        "ordered": [
+          "麵包",
+          "咖啡",
+          "岩灘躺椅租借"
+        ],
+        "price": "$",
+        "map_url": "https://maps.app.goo.gl/n4ZvayUq4nzuBhQ96",
+        "reservation": "無需訂位；躺椅數量有限，建議早點詢問。",
+        "ratings": {
+          "food": 3,
+          "service": 5,
+          "view": 5,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "porto-loutro",
+        "name_zh": "Porto Loutro Beach Cafe",
+        "name_en": "Hotel Porto Loutro Beach Cafe",
+        "tag": "海景輕食・Loutro",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=80",
+        "review": "Loutro 的海景咖啡（在二樓），老闆娘很親切。我們點了三明治和優格當午餐，三明治烤得熱熱的很好吃，是搭船離開前的好選擇。",
+        "ordered": [
+          "烤三明治",
+          "優格"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/JFeZb1tfcrQKHkvY8",
+        "reservation": "搭船班次前建議預留用餐時間，尖峰時段可能需稍候。",
+        "ratings": {
+          "food": 4,
+          "service": 5,
+          "view": 5,
+          "revisit": 4
+        }
+      },
+      {
+        "id": "veneti",
+        "name_zh": "Veneti Cafe",
+        "name_en": "Veneti Cafe",
+        "tag": "休息站咖啡",
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80",
+        "review": "從 Souda 港前往 Seitan Limania 途中的咖啡店，是中途休息、上廁所的好地點。自駕西克里特時很實用。",
+        "ordered": [
+          "咖啡",
+          "休息"
+        ],
+        "price": "$",
+        "map_url": "https://maps.app.goo.gl/Mdq6HrutH2zBga6V9",
+        "reservation": "路過休息，不需訂位。",
+        "ratings": {
+          "food": 3,
+          "service": 3,
+          "view": 2,
+          "revisit": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "crete-rethymno",
+    "region_key": "crete",
+    "region_zh": "克里特島",
+    "area_zh": "雷希姆龍",
+    "area_en": "Rethymno",
+    "title": "克里特島雷希姆龍美食推薦",
+    "title_en": "Where to Eat in Rethymno",
+    "blurb": "威尼斯舊城與海港風情並存，雷希姆龍適合邊逛邊吃。這篇整理我們在舊城與港口實際造訪的餐廳。",
+    "intro": "雷希姆龍（Rethymno）保留完整的威尼斯舊城風貌，城堡、窄巷與海港步道都很適合散步。我們在這裡安排半日到一日，逛完舊城後到港口邊用餐，節奏悠閒。",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1800&q=80",
+    "page": "food-crete-rethymno.html",
+    "restaurants": [
+      {
+        "id": "cavo-doro",
+        "name_zh": "Cavo D'oro 海港餐廳",
+        "name_en": "Cavo D'oro Restaurant",
+        "tag": "海港餐廳",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80",
+        "review": "Rethymno 威尼斯港邊的餐廳，可以邊用餐邊欣賞港口風景。逛完 Rethymno 舊城與城堡後，很適合來這裡歇腳用餐。",
+        "ordered": [
+          "希臘沙拉",
+          "海鮮料理",
+          "當地葡萄酒"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/7GhzcYgZX7u9CNf38",
+        "reservation": "晚餐時段建議事先訂位，尤其是想坐戶外港景座位時。",
+        "ratings": {
+          "food": 4,
+          "service": 4,
+          "view": 4,
+          "revisit": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "crete-ierapetra",
+    "region_key": "crete",
+    "region_zh": "克里特島",
+    "area_zh": "伊拉佩特拉",
+    "area_en": "Ierapetra",
+    "title": "克里特島伊拉佩特拉美食推薦",
+    "title_en": "Where to Eat in Ierapetra",
+    "blurb": "克里特島最南端的港口小鎮，適合作為探索 Chrissi 島（黃金海灘）的基地。這篇整理東南克里特的美食筆記，內容持續更新中。",
+    "intro": "伊拉佩特拉（Ierapetra）是克里特島最南端的城鎮，面向 Libyan 海，氣氛比北岸更悠閒。許多人會從這裡搭船前往 Chrissi 島（又稱黃金海灘）。這篇也收錄我們在伊拉克利翁轉運時吃到的早餐與 Gyros，東部克里特的美食筆記會持續補充。",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1800&q=80",
+    "page": "food-crete-ierapetra.html",
+    "restaurants": [
+      {
+        "id": "phyllosophies",
+        "name_zh": "Phyllosophies（Liontaria）",
+        "name_en": "Phyllosophies",
+        "tag": "早餐・伊拉克利翁",
+        "location_note": "伊拉克利翁 Heraklion（轉運港口）",
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=1200&q=80",
+        "review": "伊拉克利翁獅子廣場旁的早餐店，東西很好吃。我們點了 Cretan Sandwich、Loukoumades 與 Bougatsa。通常人很多，老闆很熱情，座位前方就能看著獅子噴泉。住 Vegga Suites 來這裡用餐有 9 折優惠。",
+        "ordered": [
+          "Cretan Sandwich",
+          "Loukoumades",
+          "Bougatsa"
+        ],
+        "price": "$",
+        "map_url": "https://maps.app.goo.gl/xqzLt3snF3E8czLSA",
+        "reservation": "尖峰時段需排隊，建議避開週末上午最忙時段。",
+        "ratings": {
+          "food": 5,
+          "service": 5,
+          "view": 3,
+          "revisit": 5
+        }
+      },
+      {
+        "id": "tilixto",
+        "name_zh": "Street Project TILIXTO",
+        "name_en": "Street Project TILIXTO",
+        "tag": "希臘卷 Gyros・伊拉克利翁",
+        "location_note": "伊拉克利翁 Heraklion（轉運港口）",
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=1200&q=80",
+        "review": "伊拉克利翁的 Gyros 希臘卷，份量大又好吃。我們外帶回旅館吃，很適合忙碌一天後的晚餐。",
+        "ordered": [
+          "Gyros 捲餅"
+        ],
+        "price": "$",
+        "map_url": "https://maps.app.goo.gl/nBC7zm2NkWBxqEvJ7",
+        "reservation": "外帶為主，尖峰時段可能需稍候。",
+        "ratings": {
+          "food": 4,
+          "service": 3,
+          "view": null,
+          "revisit": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "santorini-fira",
+    "region_key": "santorini",
+    "region_zh": "聖托里尼",
+    "area_zh": "費拉",
+    "area_en": "Fira",
+    "title": "聖托里尼費拉美食推薦",
+    "title_en": "Where to Eat in Fira",
+    "blurb": "費拉 3 間我們實際吃過的餐廳，含早午餐、午餐與日落時段，附評分、優缺點與訂位提醒。",
+    "intro": "費拉（Fira）是聖托里尼的公車中心與主要鬧區，我們在這裡住了兩晚（Kudos Suites Firostefani），白天逛市中心街道、買伴手禮，傍晚則專程找海景餐廳看日落。這篇整理我們在費拉實際吃過的三間餐廳——從早午餐、午餐到日落晚餐，順便分享訂位與公車時段的實用提醒。",
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1800&q=80",
+    "page": "food-santorini-fira.html",
+    "restaurants": [
+      {
+        "id": "fusionnelle",
+        "name_zh": "Fusionnelle",
+        "name_en": "Fusionnelle",
+        "tag": "早午餐・午餐",
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=1200&q=80",
+        "image_2": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1200&q=80",
+        "photo_caption": "Fusionnelle 店內氛圍輕鬆，適合開啟費拉逛街的一天。",
+        "photo_caption_2": "我們點的鮮蝦義大利麵與 Moussaka。",
+        "review": "我們在費拉的第一個早上來這裡吃早午餐，後來才發現午餐 menu 要中午 12:00 才開始。我點了鮮蝦義大利麵，老公點 moussaka（慕薩卡），兩道都好吃。店員很親切，會主動跟你聊天，整體氣氛輕鬆，很適合開啟費拉逛街的一天。",
+        "ordered": [
+          "鮮蝦義大利麵",
+          "Moussaka 慕薩卡"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/XoCCJ2aYvFDFNZVm7",
+        "reservation": "午餐 menu 12:00 開始；若想吃午餐品項，建議 12:00 後再來，或事先確認當日 menu。",
+        "ratings": {
+          "food": 4,
+          "service": 5,
+          "view": 3,
+          "revisit": 5
+        }
+      },
+      {
+        "id": "onar",
+        "name_zh": "Onar Restaurant Bar",
+        "name_en": "Onar Restaurant Bar Santorini",
+        "tag": "日落餐廳・海景",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80",
+        "review": "我們特地來這裡看日落，餐點本身好吃，但服務生的態度可以明顯感受到比較冷漠，和 Fusionnelle 的親切形成對比。若能坐在靠窗的位置，火山口夕陽的視野真的很值得。下午若還有時間，也可以搭公車去 Kamari 黑沙灘（最晚班次出發前建議到當地再確認公車時刻表）。",
+        "ordered": [
+          "日落時段晚餐"
+        ],
+        "price": "$$$",
+        "map_url": "https://maps.app.goo.gl/1hKwtvvLgAB7c24U8",
+        "reservation": "強烈建議提早訂位，才能坐到靠窗、視野較好的位置看日落。",
+        "ratings": {
+          "food": 4,
+          "service": 2,
+          "view": 5,
+          "revisit": 3
+        }
+      },
+      {
+        "id": "iriana",
+        "name_zh": "Iriana Cafe Lounge Bar",
+        "name_en": "Iriana Cafe Lounge Bar",
+        "tag": "早午餐・景觀咖啡",
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80",
+        "review": "隔天的早上我們又來費拉吃早午餐。店員非常貼心、服務很好。我們坐在二樓，景色超漂亮，又有遮蔽不會太曬，邊吃早餐邊看費拉風景，是很舒服的一餐。這天之後我們原本要搭公車去 Vlihada 參加 Flora fishing tour，但公車班次少錯過了，後來改搭 Uber——其實也可以請 tour 方安排接送，供你規劃行程時參考。",
+        "ordered": [
+          "早午餐"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.app.goo.gl/1xvHKeF7JmB1Qf6J8",
+        "reservation": "二樓景觀座位很受歡迎，尖峰時段可能需要稍候；建議早一點去。",
+        "ratings": {
+          "food": 4,
+          "service": 5,
+          "view": 5,
+          "revisit": 5
+        }
+      }
+    ],
+    "extras_intro": "以下不在費拉步行核心，但從費拉或 Firostefani 出發仍值得順路過去。",
+    "extras": [
+      {
+        "id": "confetti",
+        "name_zh": "Confetti Dessert Boutique",
+        "tag": "甜點・早午餐",
+        "location_note": "位於 Imerovigli，距費拉中心步行約 20–25 分鐘",
+        "review": "這間法式甜點店在聖托里尼頗有名氣，提供精緻糕點、自製 gelato 與早午餐，店旁就是經典藍頂教堂。若你願意離開費拉主街多走一段，很適合當作甜點或第二頓早午餐的延伸站。",
+        "price": "$$",
+        "map_url": "https://www.google.com/maps/place/Confetti+Dessert+Boutique+Santorini/@36.4329541,25.4224004,17z",
+        "ratings": {
+          "food": 5,
+          "service": 4,
+          "view": 5,
+          "revisit": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "santorini-oia",
+    "region_key": "santorini",
+    "region_zh": "聖托里尼",
+    "area_zh": "伊亞",
+    "area_en": "Oia",
+    "title": "聖托里尼伊亞美食推薦",
+    "title_en": "Where to Eat in Oia",
+    "blurb": "伊亞巷弄裡的小酒館與合作早餐餐廳，避開日落人潮後更能好好享用道地希臘料理。",
+    "intro": "伊亞（Oia）以藍頂教堂與日落聞名，白天與傍晚人潮眾多。我們建議把正式晚餐安排在避開日落卡位時段，或選擇巷弄裡較安靜的小酒館。若住在 Oia Spirit，也可以到合作的 Thalami Restaurant 享用豐盛早餐。",
+    "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1000&q=80",
+    "hero": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1800&q=80",
+    "page": "food-santorini-oia.html",
+    "restaurants": [
+      {
+        "id": "oia-taverna",
+        "name_zh": "伊亞小酒館",
+        "name_en": "Oia Taverna",
+        "tag": "希臘小館",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=80",
+        "review": "伊亞巷弄裡藏著不少氣氛溫馨的小酒館，遠離日落人潮後可以好好享用一頓道地希臘晚餐。希臘沙拉、烤章魚、慢烤羊肉都是常見的招牌。",
+        "ordered": [
+          "希臘沙拉",
+          "烤章魚",
+          "慢烤羊肉"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.google.com/?q=taverna+Oia+Santorini",
+        "reservation": "晚餐建議訂位；日落時段整個伊亞都非常擁擠。",
+        "ratings": {
+          "food": 4,
+          "service": 4,
+          "view": 3,
+          "revisit": 3
+        }
+      },
+      {
+        "id": "thalami",
+        "name_zh": "Thalami Restaurant",
+        "name_en": "Thalami Restaurant",
+        "tag": "海景早餐・Oia Spirit 合作",
+        "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=80",
+        "review": "Oia Spirit Studios 住客可到此享用早餐，告知訂房姓名即可帶位。我們被安排在海景第一排，點了歐姆蛋、麵包盤與水果甜鬆餅，份量很足。",
+        "ordered": [
+          "歐姆蛋",
+          "麵包盤",
+          "水果甜鬆餅"
+        ],
+        "price": "$$",
+        "map_url": "https://maps.google.com/?q=Thalami+Restaurant+Oia",
+        "reservation": "Oia Spirit 住客專屬，建議向飯店確認早餐時段。",
+        "ratings": {
+          "food": 4,
+          "service": 4,
+          "view": 5,
+          "revisit": 4
+        }
+      }
+    ]
+  }
+]

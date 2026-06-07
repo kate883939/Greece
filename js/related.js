@@ -28,7 +28,7 @@
       </a>`;
   }
 
-  // 景點/餐廳：連到地區頁並帶 ?modal= 參數
+  // 景點：連到地區頁並帶 ?modal= 參數
   function modalItemCard(item, regionKey, kindLabel) {
     const url = `${REGION_PAGE[regionKey]}?modal=${encodeURIComponent(item.name_zh)}`;
     return `
@@ -38,6 +38,18 @@
           <div class="related-region">${item.tag || ''}</div>
           <h4 class="related-name">${item.name_zh}</h4>
           <p class="related-blurb">${(item.detail || '').slice(0, 46)}…</p>
+        </div>
+      </a>`;
+  }
+
+  function foodArticleCard(article) {
+    return `
+      <a class="related-card" href="${article.page}">
+        <div class="related-img"><img src="${article.image}" alt="${article.title}" loading="lazy"><span class="related-tag">美食</span></div>
+        <div class="related-body">
+          <div class="related-region">${article.area_zh}</div>
+          <h4 class="related-name">${article.title}</h4>
+          <p class="related-blurb">${article.blurb.slice(0, 46)}…</p>
         </div>
       </a>`;
   }
@@ -63,10 +75,13 @@
         heading = '這個地區的其他住宿';
         cards = otherStays.slice(0, 3).map(stayCard);
       } else {
-        // 2. 備案：同地區景點 + 餐廳
+        // 2. 備案：同地區景點 + 美食文章
         heading = `探索更多${regionData.region.name_zh}`;
         const landmarks = (regionData.landmarks || []).slice(0, 2).map(it => modalItemCard(it, cfg.region, '景點'));
-        const foods = (regionData.food || []).slice(0, 1).map(it => modalItemCard(it, cfg.region, '美食'));
+        const foods = (await fetch('data/food-articles.json').then(r => r.json()))
+          .filter(a => a.region_key === cfg.region)
+          .slice(0, 1)
+          .map(foodArticleCard);
         cards = [...landmarks, ...foods];
       }
 

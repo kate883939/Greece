@@ -15,7 +15,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
@@ -60,7 +60,7 @@
   <div class="container">
     <p class="section-eyebrow">Where We Ate</p>
     <h1 class="page-title">好吃餐廳</h1>
-    <p class="page-lead">我們在希臘三大地區親身吃過、覺得值得推薦的餐廳與咖啡廳。點開卡片看完整介紹與 Google Map 位置。</p>
+    <p class="page-lead">依地區整理的美食攻略，每篇介紹同一區域多家我們親身吃過的餐廳。點開卡片閱讀完整內容。</p>
   </div>
 </header>
 
@@ -73,18 +73,10 @@
       <button class="tab" data-region="crete">克里特島</button>
       <button class="tab" data-region="santorini">聖托里尼</button>
     </div>
-    <div class="card-grid grid-3" id="items-grid"></div>
-    <p class="empty-hint" id="empty-hint" hidden>這個地區還沒有餐廳介紹，敬請期待。</p>
+    <div class="card-grid card-grid-horizontal" id="items-grid"></div>
+    <p class="empty-hint" id="empty-hint" hidden>這個地區還沒有美食攻略，敬請期待。</p>
   </div>
 </section>
-
-<!-- ============ 大彈窗 ============ -->
-<div class="modal" id="modal">
-  <div class="modal-content large">
-    <button class="modal-close" id="modal-close" aria-label="關閉"><i data-lucide="x" class="close-icon"></i></button>
-    <div id="modal-body"></div>
-  </div>
-</div>
 
 <!-- ============ FOOTER ============ -->
 <footer class="footer">
@@ -119,9 +111,9 @@
   </div>
 </footer>
 
-<script>window.COLLECTION = 'food';</script>
 <script src="js/nav.js"></script>
-<script src="js/collection.js"></script>
+<script src="js/food-articles.js"></script>
+<script src="js/food-collection.js"></script>
 
 
 <script>lucide.createIcons();</script>

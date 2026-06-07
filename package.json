@@ -1,0 +1,7 @@
+{
+  "name": "greece-site",
+  "private": true,
+  "scripts": {
+    "build:food": "node scripts/build-food-articles.mjs"
+  }
+}

@@ -61,6 +61,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tripick.co/food-athens.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripick.co/food-crete-chania.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripick.co/food-crete-rethymno.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripick.co/food-crete-ierapetra.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripick.co/food-santorini-fira.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripick.co/food-santorini-oia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://tripick.co/santorini-transport.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

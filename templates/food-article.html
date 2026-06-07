@@ -3,25 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>點餐常見單字｜希臘菜單英中對照｜Tripick 希臘</title>
-<link rel="canonical" href="https://tripick.co/phrases.html">
-<meta property="og:url" content="https://tripick.co/phrases.html">
-<meta name="description" content="希臘餐廳菜單常見單字英中對照：souvlaki、gyro、moussaka 等希臘菜，點餐前看一眼不踩雷。">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="點餐常見單字｜Tripick 希臘">
-<meta property="og:description" content="希臘餐廳菜單常見單字英中對照。">
-<meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80">
-
+<title>{{TITLE}}</title>
+<link rel="canonical" href="{{CANONICAL}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{OG_DESCRIPTION}}">
+<meta property="og:image" content="{{OG_IMAGE}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{{JSON_LD}}</script>
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
-<body data-author-badge="phrases">
+<body>
 
-<!-- ============ NAV ============ -->
 <nav class="nav">
   <div class="nav-inner">
     <div class="brand-group">
@@ -55,23 +53,30 @@
   </div>
 </nav>
 
-<!-- ============ 頁面標題 ============ -->
-<header class="page-hero">
+<header class="article-hero" style="background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('{{HERO_IMAGE}}')">
   <div class="container">
-    <p class="section-eyebrow">Dining Words</p>
-    <h1 class="page-title">點餐常見單字</h1>
-    <p class="page-lead"><span id="phrases-intro"></span></p>
+    <p class="article-region">{{HERO_REGION}}</p>
+    <p class="article-title">{{HERO_TITLE}}<span class="en">{{HERO_TITLE_EN}}</span></p>
   </div>
 </header>
 
-<!-- ============ 單字表 ============ -->
-<section class="section" style="padding-top:40px">
+<div class="article-two-col">
+<article class="article-main" id="food-article-root"></article>
+<aside class="article-sidebar">
+  <div class="sidebar-sticky">
+    <nav class="article-toc" id="food-sidebar-toc" aria-label="文章目錄"></nav>
+  </div>
+</aside>
+</div>
+
+<section class="related-section article-related-section" id="related-section" hidden>
   <div class="container">
-    <div id="phrases"></div>
+    <h2 class="related-heading" id="related-heading">延伸閱讀</h2>
+    <div class="related-grid article-related-grid" id="related-grid"></div>
+    <a class="btn btn-ghost-dark article-back-wide" href="restaurants.html">← 回到所有好吃餐廳</a>
   </div>
 </section>
 
-<!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -93,9 +98,6 @@
           <li><a href="landmarks.html">著名景點</a></li>
           <li><a href="restaurants.html">好吃餐廳</a></li>
           <li><a href="accommodations.html">住宿推薦</a></li>
-          <li><a href="packing.html">跳島行李清單</a></li>
-          <li><a href="phrases.html">點餐常見單字</a></li>
-          <li><a href="tips.html">實用須知</a></li>
           <li><a href="about.html">關於我們</a></li>
         </ul>
       </div>
@@ -108,10 +110,10 @@
 </footer>
 
 <script src="js/author-badge.js"></script>
+<script>window.FOOD_ARTICLE_ID = '{{FOOD_ARTICLE_ID}}';</script>
 <script src="js/nav.js"></script>
-<script src="js/phrases.js"></script>
-
-
+<script src="js/food-articles.js"></script>
+<script src="js/food-article-page.js"></script>
 <script>lucide.createIcons();</script>
 </body>
 </html>

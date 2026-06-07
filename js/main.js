@@ -1,6 +1,7 @@
 /* ============================================
    希臘旅遊指南 — 首頁互動
-   著名景點 / 好吃餐廳 / 跟團 → 從三地區 JSON 合併，點卡片開大彈窗
+   著名景點 / 跟團 → 從三地區 JSON 合併，點卡片開大彈窗
+   好吃餐廳 → 美食文章橫式卡片
    住宿 → 連到實住介紹頁
    ============================================ */
 
@@ -10,28 +11,14 @@ const REGIONS = [
   { key: 'santorini', zh: '聖托里尼', file: 'data/santorini.json' }
 ];
 
-const store = { landmarks: [], food: [], tours: [] };
+const store = { landmarks: [], tours: [] };
 
 function initNav() {
   if (window.initSiteNav) window.initSiteNav();
 }
 
 function accommodationCard(item) {
-  return `
-    <article class="card reveal">
-      <a href="${item.page}" class="card-img">
-        <span class="card-tag hot">${item.rating}</span>
-        <img src="${item.image}" alt="${item.name_zh}" loading="lazy">
-      </a>
-      <div class="card-body">
-        <div class="card-region">${item.region}・${item.location}</div>
-        <h3 class="card-name"><a href="${item.page}">${item.name_zh}</a><span class="en">${item.name_en}</span></h3>
-        <p class="card-blurb">${item.blurb}</p>
-        <div class="card-actions">
-          <a class="card-btn-sm" href="${item.page}">實住心得 →</a>
-        </div>
-      </div>
-    </article>`;
+  return stayCardHtml(item);
 }
 
 function modalCard(item, kind, idx) {
@@ -108,15 +95,19 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch (err) { console.error(err); }
 
   try {
+    const articles = await loadFoodArticles();
+    renderFoodArticleCards('restaurants-grid', articles.slice(0, 3), 'horizontal');
+    observeReveal();
+  } catch (err) { console.error(err); }
+
+  try {
     const results = await Promise.all(REGIONS.map(r => fetch(r.file).then(res => res.json())));
     results.forEach((data, i) => {
       const zh = REGIONS[i].zh;
       (data.landmarks || []).forEach(it => store.landmarks.push({ ...it, region_zh: zh }));
-      (data.food || []).forEach(it => store.food.push({ ...it, region_zh: zh }));
       (data.tours || []).forEach(it => store.tours.push({ ...it, region_zh: zh }));
     });
     renderModalSection('landmarks-grid', store.landmarks, 'landmarks', 6);
-    renderModalSection('restaurants-grid', store.food, 'food', 3);
     renderModalSection('tours-grid', store.tours, 'tours', 3);
   } catch (err) { console.error(err); }
 

@@ -17,7 +17,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
@@ -69,6 +69,18 @@
     </div>
   </div>
 </header>
+
+<!-- ============ 分享人 ============ -->
+<section class="section contributors" id="contributors">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Contributors</p>
+      <h2 class="section-title">我們的推薦來自真實旅程</h2>
+      <p class="section-sub">Tripick 的每一篇文章，都有人親自去過、住過、吃過。</p>
+    </div>
+    <div class="contributors-grid" id="contributors-grid"></div>
+  </div>
+</section>
 
 <!-- ============ 希臘各地 三大區入口 ============ -->
 <section class="section regions" id="regions">
@@ -139,9 +151,9 @@
     <div class="section-head reveal">
       <p class="section-eyebrow">Where We Ate</p>
       <h2 class="section-title">好吃餐廳・親身推薦</h2>
-      <p class="section-sub">我們實際吃過、覺得值得專程前往的餐廳與咖啡廳。</p>
+      <p class="section-sub">依地區整理的美食攻略，每篇介紹同一區域多家親身推薦的餐廳。</p>
     </div>
-    <div class="card-grid grid-3" id="restaurants-grid"></div>
+    <div class="card-grid card-grid-horizontal" id="restaurants-grid"></div>
     <div class="see-more"><a href="restaurants.html" class="btn btn-ghost-dark">查看所有好吃餐廳 →</a></div>
   </div>
 </section>
@@ -200,6 +212,9 @@
 </footer>
 
 <script src="js/nav.js"></script>
+<script src="js/contributors.js"></script>
+<script src="js/food-articles.js"></script>
+<script src="js/stay-card.js"></script>
 <script src="js/main.js"></script>
 
 

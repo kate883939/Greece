@@ -1,0 +1,39 @@
+[
+  {
+    "id": "kate",
+    "name": "Kate",
+    "role": "創辦人",
+    "bio": "喜歡自由行，但不愛規劃，鬆鬆的行程很好。",
+    "initial": "K",
+    "photo": "images/authors/kate.png",
+    "tags": ["希臘", "自由行", "蜜月"],
+    "stats": [
+      { "icon": "map-pin", "text": "希臘" },
+      { "icon": "file-text", "text": "12 篇文章" }
+    ]
+  },
+  {
+    "id": "ryan",
+    "name": "Ryan",
+    "role": "Kate 的先生",
+    "bio": "行程規劃達人，著名景點要踩，稀有秘境也不放過。",
+    "initial": "R",
+    "photo": "images/authors/Ryan.png",
+    "tags": ["希臘", "秘境", "景點"],
+    "stats": [
+      { "icon": "map-pin", "text": "即將加入" }
+    ]
+  },
+  {
+    "id": "christine",
+    "name": "Christine",
+    "role": "Kate 的姊姊",
+    "bio": "深度旅遊控，藝術文化之旅必收，短期旅遊說走就走。",
+    "initial": "C",
+    "photo": "images/authors/Christine.png",
+    "tags": ["文化", "藝術", "深度旅遊"],
+    "stats": [
+      { "icon": "map-pin", "text": "即將加入" }
+    ]
+  }
+]
