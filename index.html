@@ -58,14 +58,107 @@
 </nav>
 
 <!-- ============ HERO ============ -->
-<header class="hero">
-  <div class="hero-inner">
-    <p class="hero-eyebrow">Greece Travel Guide</p>
-    <h1>走過愛琴海的每一道光</h1>
-    <p>從雅典的古老神殿、克里特島的祕境海灘，到聖托里尼的藍頂日落。這是我們親身走過、整理給你的希臘自助旅遊指南。</p>
-    <div class="hero-cta">
-      <a href="#regions" class="btn btn-primary">開始探索希臘</a>
-      <a href="accommodations.html" class="btn btn-ghost">看實住住宿推薦</a>
+<header class="hero hero-home">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">Greece · 15 Days</p>
+      <div class="hero-author">
+        <span class="hero-author__avatars" aria-hidden="true">
+          <span class="hero-author__avatar">
+            <img src="images/authors/kate.png" alt="Kate" width="28" height="28" loading="eager">
+          </span>
+          <span class="hero-author__avatar">
+            <img src="images/authors/Ryan.png" alt="Ryan" width="28" height="28" loading="eager">
+          </span>
+        </span>
+        <span class="hero-author__text">Kate & Ryan 的希臘蜜月旅記 · 2026 年春末</span>
+      </div>
+      <h1>從雅典到聖托里尼，<span class="hero-title-accent">我們走過的希臘旅記</span></h1>
+      <p class="hero-lead">從雅典舊城的咖啡館、克里特的秘境海灘，到聖托里尼的日落——這是我們親身走過的路線，整理給你的第一手推薦。</p>
+      <div class="hero-cta">
+        <a href="itinerary.html" class="btn btn-primary">看這趟行程</a>
+        <a href="#regions" class="btn btn-outline-terracotta">探索三大地區</a>
+      </div>
+      <div class="hero-routes" aria-label="這趟旅程的三個地區">
+        <a href="athens.html">雅典</a>
+        <a href="crete.html">克里特</a>
+        <a href="santorini.html">聖托里尼</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <figure class="hero-photo hero-carousel" id="hero-carousel" aria-roledescription="carousel" aria-label="希臘旅途照片">
+        <div class="hero-carousel__viewport">
+          <div class="hero-carousel__stage">
+            <div class="hero-carousel__progress" role="tablist" aria-label="選擇照片">
+              <button type="button" class="hero-carousel__progress-item is-active" role="tab" aria-selected="true" aria-label="第 1 張">
+                <span class="hero-carousel__progress-bar"><span class="hero-carousel__progress-fill"></span></span>
+              </button>
+              <button type="button" class="hero-carousel__progress-item" role="tab" aria-selected="false" aria-label="第 2 張">
+                <span class="hero-carousel__progress-bar"><span class="hero-carousel__progress-fill"></span></span>
+              </button>
+              <button type="button" class="hero-carousel__progress-item" role="tab" aria-selected="false" aria-label="第 3 張">
+                <span class="hero-carousel__progress-bar"><span class="hero-carousel__progress-fill"></span></span>
+              </button>
+            </div>
+            <div class="hero-carousel__track">
+              <div class="hero-carousel__slide is-active"
+                data-quote="在普拉卡舊城迷路半小時，最後用一杯 frappe 和解——雅典就是這樣適合晃。"
+                data-author="Kate"
+                data-author-photo="images/authors/kate.png">
+                <div class="hero-carousel__card">
+                  <div class="hero-carousel__media">
+                    <img src="https://images.unsplash.com/photo-1555993539-1732b0258235?w=900&q=80" alt="雅典衛城與市區天際線" loading="eager">
+                  </div>
+                  <div class="hero-carousel__caption">
+                    <span class="hero-carousel__tag">Athens</span>
+                    <span class="hero-carousel__label">雅典 · 衛城與老城區</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-carousel__slide"
+                data-quote="Balos 路不好開，但看到潟湖那刻 Ryan 在車裡安靜了整整十秒。"
+                data-author="Ryan"
+                data-author-photo="images/authors/Ryan.png">
+                <div class="hero-carousel__card">
+                  <div class="hero-carousel__media">
+                    <img src="https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=900&q=80" alt="克里特島 Balos 潟湖與碧藍海水" loading="lazy">
+                  </div>
+                  <div class="hero-carousel__caption">
+                    <span class="hero-carousel__tag">Crete</span>
+                    <span class="hero-carousel__label">克里特 · Balos 與粉紅沙灘</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-carousel__slide"
+                data-quote="每天下午在 Kudos 泳池發呆，是蜜月裡最想重新過的一次。"
+                data-author="Kate"
+                data-author-photo="images/authors/kate.png">
+                <div class="hero-carousel__card">
+                  <div class="hero-carousel__media">
+                    <img src="images/stays/kudos/pool.jpg" alt="Kudos Suites 戶外泳池區，編織洋傘與愛琴海度假氛圍" loading="lazy">
+                  </div>
+                  <div class="hero-carousel__caption">
+                    <span class="hero-carousel__tag">Santorini</span>
+                    <a href="stay-kudos.html" class="hero-carousel__label hero-carousel__label--link">聖托里尼 · Kudos Suites →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-carousel__ui">
+            <blockquote class="hero-quote is-visible" aria-live="polite">
+              <div class="hero-quote__avatar">
+                <img src="images/authors/kate.png" alt="Kate" width="32" height="32">
+              </div>
+              <div class="hero-quote__body">
+                <p class="hero-quote__text">在普拉卡舊城迷路半小時，最後用一杯 frappe 和解——雅典就是這樣適合晃。</p>
+                <cite class="hero-quote__author">Kate</cite>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </figure>
     </div>
   </div>
 </header>
@@ -211,6 +304,7 @@
   </div>
 </footer>
 
+<script src="js/hero-carousel.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/contributors.js"></script>
 <script src="js/food-articles.js"></script>
